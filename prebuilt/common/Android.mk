@@ -142,3 +142,13 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/sysconfig
 include $(BUILD_PREBUILT)
+
+# Shuttle music player | https://github.com/timusus/Shuttle
+include $(CLEAR_VARS)
+LOCAL_MODULE := ShuttleFree
+LOCAL_SRC_FILES := apk/$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)

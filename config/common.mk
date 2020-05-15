@@ -101,7 +101,8 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt apks
 PRODUCT_PACKAGES += \
-    duckduckgo
+    duckduckgo \
+    ShuttleFree
 
 # Offline charger
 PRODUCT_PACKAGES += \
