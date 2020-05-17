@@ -3,9 +3,7 @@ $(call inherit-product, vendor/lineage/config/common.mk)
 
 # AOSP packages
 PRODUCT_PACKAGES += \
-    Email \
-    ExactCalculator \
-    Exchange2
+    ExactCalculator
 
 # DocumentsUI
 PRODUCT_PACKAGES += \
@@ -14,9 +12,7 @@ PRODUCT_PACKAGES += \
 # Lineage packages
 PRODUCT_PACKAGES += \
     Backgrounds \
-    Eleven \
     Etar \
-    Jelly \
     Profiles \
     Seedvault
 
