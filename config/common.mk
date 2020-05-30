@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
+# omni
+PRODUCT_PACKAGES += \
+    OmniJaws
+
 # FLOSS
 ifeq ($(FLOSS_PACK), aurora)
 PRODUCT_PACKAGES += \
