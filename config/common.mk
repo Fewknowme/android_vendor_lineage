@@ -113,6 +113,8 @@ PRODUCT_PACKAGES += \
     OmniJaws
 
 # FLOSS
+PRODUCT_PACKAGES += \
+    F-DroidPrivilegedExtension
 ifeq ($(FLOSS_PACK), aurora)
 PRODUCT_PACKAGES += \
     AuroraStore \
