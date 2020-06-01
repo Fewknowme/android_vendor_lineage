@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
 
+# Prebuilt apks
+PRODUCT_PACKAGES += \
+    duckduckgo
+
 # Offline charger
 PRODUCT_PACKAGES += \
     charger_res_images \

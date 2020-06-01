@@ -46,3 +46,16 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
+
+# Prebuilt Apps
+
+# duckduckgo Browser | https://github.com/duckduckgo/Android
+include $(CLEAR_VARS)
+LOCAL_MODULE := duckduckgo
+LOCAL_SRC_FILES := apk/$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
